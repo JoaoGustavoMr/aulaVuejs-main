@@ -1,0 +1,7 @@
+:root { --bg:#1f2b38; --card:#28303c; --verde:#42b883; --texto:#f2f5f7; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--texto); }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+h1, h2 { margin: 0 0 8px; }
+h1 { color: var(--verde); }
+.card { background: var(--card); border-radius: 8px; padding: 16px; margin-top: 16px; }
